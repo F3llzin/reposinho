@@ -1,2 +1,27 @@
-console.log("Olá viajante, vamos começar nossa aventura! primeiramente ensira seu nome e um número de 1000 para cima para dizermos seu nivel.")
-let nome = charles
+//variáveis do código
+let nome = "fellipe"
+let xp = 10000
+let nivel = " "
+//parte funcional do código
+if(xp <= 1000){
+    nivel = "Ferro"
+} else if(xp >= 1001 && xp <= 2000){
+        nivel = "Broze"
+} else if(xp >= 2001 && xp <= 5000){
+    nivel = "Prata"
+}else if(xp >= 5001 && xp <= 7000){
+    nivel = "Ouro"
+}else if(xp >= 7001 && xp <= 8000){
+    nivel = "Platina"
+}else if(xp >= 8001 && xp <= 9000){
+    nivel = "Ascendente"
+}else if(xp >= 9001 && xp <= 10000){
+    nivel = "Imortal"
+}else {
+    nivel = "Radiante"
+}
+//saída
+console.log(`O Héroi de nome ${nome}, está no nível de ${nivel}!`)
+
+
+   
