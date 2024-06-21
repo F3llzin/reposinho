@@ -5,9 +5,9 @@ let nivel = " "
 //parte funcional do código
 if(xp <= 1000){
     nivel = "Ferro"
-} else if(xp >= 1001 && xp <= 2000){
+}else if(xp >= 1001 && xp <= 2000){
         nivel = "Broze"
-} else if(xp >= 2001 && xp <= 5000){
+}else if(xp >= 2001 && xp <= 5000){
     nivel = "Prata"
 }else if(xp >= 5001 && xp <= 7000){
     nivel = "Ouro"
